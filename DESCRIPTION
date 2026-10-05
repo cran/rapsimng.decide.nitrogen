@@ -1,0 +1,23 @@
+Package: rapsimng.decide.nitrogen
+Title: Analyse APSIM Next Generation Simulation Outputs for Nitrogen
+        Decision
+Version: 0.1.0
+Authors@R: 
+    person("Bangyou", "Zheng", email = "zheng.bangyou@gmail.com", role = c("aut", "cre"))
+Description: Provides functions to analyse Agricultural Production Systems sIMulator ('APSIM') Next Generation simulation outputs to support nitrogen decision under specified environments and management assumptions. The package focuses on transparent, reproducible summarisation of model outputs such as nitrogen requirements, uptake, and efficiency, without performing 'APSIM' simulations, interpreting user intent, or making normative recommendations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: dplyr, tibble, rlang, stats, knitr, rapsimng.decide.core
+Suggests: here, quarto, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://nitrogen.decide.rapsimng.bangyou.me/,
+        https://github.com/byzheng/rapsimng.decide.nitrogen
+BugReports: https://github.com/byzheng/rapsimng.decide.nitrogen/issues
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-09-24 09:48:34 UTC; zhe00a
+Author: Bangyou Zheng [aut, cre]
+Maintainer: Bangyou Zheng <zheng.bangyou@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-05 16:10:08 UTC
